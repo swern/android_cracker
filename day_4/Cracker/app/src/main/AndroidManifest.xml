@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.cracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Cracker"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/profile"
+            android:parentActivityName=".Cracker"></activity>
+        <activity
+            android:name=".FoodInputActivity"
+            android:label="@string/food_input"
+            android:parentActivityName=".ProfileActivity"></activity>
+        <activity
+            android:name=".DataListActivity"
+            android:label="Diary"
+            android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".SearchDiaryActivity"
+            android:label="Search"
+            android:parentActivityName=".ProfileActivity"/>
+
+    </application>
+
+
+
+</manifest>

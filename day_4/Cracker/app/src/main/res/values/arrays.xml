@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mealchoice">
+        <item>@string/breakfast</item>
+        <item>@string/lunch</item>
+        <item>@string/dinner</item>
+        <item>@string/snack</item>
+    </string-array>
+</resources>
